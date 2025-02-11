@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: flask-api
-        image: piekarz376/homelabpiekarski.top/flask-api:latest  # Replace with your image reference
+        image: piekarz376/flask-api:latest  # Replace with your image reference
         ports:
         - containerPort: 5000
         volumeMounts:
